@@ -15,6 +15,9 @@ export class QuoteDetailsComponent implements OnInit {
   deleteQuote(read:boolean){
     this.isRead.emit(read);
   }
+  upvote(){
+    this.quoty.likes+=1;
+  }
 
   constructor() { }
 
