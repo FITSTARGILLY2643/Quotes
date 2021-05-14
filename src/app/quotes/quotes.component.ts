@@ -14,6 +14,12 @@ export class QuotesComponent implements OnInit {
     
   ];
 
+  get sortQuotes() {
+    return this.quotes.sort((a, b) => {
+      return <any>new Date(b.datePosted) - <any>new Date(a.datePosted);
+    });
+  }  
+
   constructor() { }
 
   ngOnInit(): void {
