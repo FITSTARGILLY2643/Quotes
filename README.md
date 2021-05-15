@@ -4,15 +4,14 @@ Gilbert Kiprotich Mutai
 ## Description
 This is a web application that shows different Awesome Quotes from different authors in the world.The application also allow users to upvote a quote,downvote a quote or even add their favourite quotes.
 ### Screenshot
-![](../src/assets/awesome.png)
+![](./src/assets/awesome.png)
 ### Prerequisites
 1. You need to have nodejs,npm and angular CLI installed
 You can install them with the following commands in your terminal
-nodejs-`curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
-`sudo apt-get install -y nodejs`
-npm-`sudo npm install npm@latest -g`
-CLI-`sudo npm install -g @angular/cli`
-
+`$curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -`
+`$sudo apt-get install -y nodejs`
+`$sudo npm install npm@latest -g`
+`$sudo npm install -g @angular/cli`
 
 2. You need to have git installed
 You can install it with the following command in your terminal
