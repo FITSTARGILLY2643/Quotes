@@ -16,8 +16,7 @@
     }
     
     .overlay {
-        background-color: rgba(0, 225, 255, 0.301);
-        border-radius: 5px;
+        background-color: lightseagreen;
         margin-top: 4%;
         margin-left: 4%;
         margin-right: 4%;
@@ -28,8 +27,8 @@
     }
     
     #name {
-        color: rgb(43, 214, 0);
-        font-weight: 700;
+        color: darkcyan;
+        font-weight: normal;
     }
     
     .all-cards {
@@ -53,20 +52,21 @@
     }
     
     #datecolor {
-        color: green;
-        font-weight: 700;
+        color: darkcyan;
+        font-weight: normal;
     }
     
     .card-title {
-        color: blue;
+        color: darkcyan;
+        font-weight: bold;
     }
     
     .card-text {
         font-family: 'Handlee', cursive;
-        font-weight: 570;
+        font-weight: normal;
         font-size: 18px;
     }
     
     #param {
-        color: sienna;
+        color: black;
     }
