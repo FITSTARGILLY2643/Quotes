@@ -4,7 +4,7 @@ Gilbert Kiprotich Mutai
 ## Description
 This is a web application that shows different Awesome Quotes from different authors in the world.The application also allow users to upvote a quote,downvote a quote or even add their favourite quotes.
 ### Screenshot
-![](./src/assets/awesome.png)
+![](/src/assets/awesome.png)
 ### Prerequisites
 1. You need to have nodejs,npm and angular CLI installed
 You can install them with the following commands in your terminal
@@ -13,7 +13,7 @@ You can install them with the following commands in your terminal
 `$sudo npm install npm@latest -g`
 `$sudo npm install -g @angular/cli`
 
-2. You need to have git installed
+2. You also need to have git installed
 You can install it with the following command in your terminal
 `$ sudo apt install git-all`
 
@@ -28,8 +28,8 @@ To access this project on your local files, you can clone it using these steps
 1. CSS
 1. Git 
 1. JS
-1. Bootstrap
-1. Angular
+1. Typescript
+
 ### Live Site
 <!-- View [live](https://fitstargilly2643.github.io/Fits-Pizza-Base/) -->
 ### Contacts
