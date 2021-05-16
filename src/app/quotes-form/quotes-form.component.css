@@ -9,12 +9,6 @@ label {
     font-weight: 600;
 }
 
-hr {
-    width: 50%;
-    height: 2px;
-    background-color: green;
-}
-
 .heading {
     color: white;
     text-align: center;

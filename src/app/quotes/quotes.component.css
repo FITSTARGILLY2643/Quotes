@@ -1,72 +1,73 @@
-    h1 {
-        font-family: 'Special Elite', cursive;
-        color: white;
-        text-align: center;
-        font-weight: bolder;
-        padding-bottom: 2%;
-        padding-top: 2%;
-    }
-    
-    h4 {
-        font-family: 'Architects Daughter', cursive;
-    }
-    
-    span {
-        font-family: 'Architects Daughter', cursive;
-    }
-    
-    .overlay {
-        background-color: lightseagreen;
-        margin-top: 4%;
-        margin-left: 4%;
-        margin-right: 4%;
-        margin-bottom: 5%;
-        padding-top: 1%;
-        padding-left: 1%;
-        padding-bottom: 5%;
-    }
-    
-    #name {
-        color: darkcyan;
-        font-weight: normal;
-    }
-    
-    .all-cards {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    
-    #quotes-button {
-        float: right;
-    }
-    
-    .card {
-        margin-bottom: 2%;
-        background-color: aliceblue;
-    }
-    
-    #date {
-        float: right;
-        font-size: 14px;
-    }
-    
-    #datecolor {
-        color: darkcyan;
-        font-weight: normal;
-    }
-    
-    .card-title {
-        color: darkcyan;
-        font-weight: bold;
-    }
-    
-    .card-text {
-        font-family: 'Handlee', cursive;
-        font-weight: normal;
-        font-size: 18px;
-    }
-    
-    #param {
-        color: black;
-    }
+        h1 {
+            font-family: 'Special Elite', cursive;
+            color: white;
+            text-align: center;
+            font-weight: bolder;
+            padding-bottom: 2%;
+            padding-top: 2%;
+        }
+        
+        h4 {
+            font-family: 'Architects Daughter', cursive;
+        }
+        
+        span {
+            font-family: 'Architects Daughter', cursive;
+        }
+        
+        .overlay {
+            background-color: lightseagreen;
+            margin-top: 4%;
+            margin-left: 4%;
+            margin-right: 4%;
+            margin-bottom: 5%;
+            padding-top: 1%;
+            padding-left: 1%;
+            padding-bottom: 5%;
+        }
+        
+        #name {
+            color: darkcyan;
+            font-weight: normal;
+        }
+        
+        .all-cards {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        
+        #quotes-button {
+            float: right;
+            margin-right: 22px;
+        }
+        
+        .card {
+            margin-bottom: 2%;
+            background-color: aliceblue;
+        }
+        
+        #date {
+            float: right;
+            font-size: 14px;
+        }
+        
+        #datecolor {
+            color: darkcyan;
+            font-weight: normal;
+        }
+        
+        .card-title {
+            color: darkcyan;
+            font-weight: bold;
+        }
+        
+        .card-text {
+            font-family: 'Handlee', cursive;
+            font-weight: normal;
+            font-size: 18px;
+        }
+        
+        #param {
+            color: black;
+        }

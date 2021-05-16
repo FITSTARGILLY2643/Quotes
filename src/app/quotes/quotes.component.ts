@@ -10,7 +10,9 @@ export class QuotesComponent implements OnInit {
 
   title = 'Awesome quotes';
   quotes:Quote[] = [
-    new Quote (1,'Charles','Human spirit','The human spirit must prevail over technology to allow humans be in charge.','Albert Einstein', new Date(2019,7,12),0,0),
+    new Quote (1,'Gilbert Pretorio','Lessons of failure','It’s fine to celebrate success but it is more important to heed the lessons of failure.','Bill Gates', new Date(2021,3,14),0,0),
+    new Quote (2,'Ibrahim kiprotich','Future and Attitude','The greatest discovery of all time is that a person can change his future by merely changing his attitude.','Oprah Winfrey',new Date(2020,7,10),0,0),
+    new Quote (3,'Kelvin Chepkuta','Choices in Life','There are two primary choices in life: to accept conditions as they exist, or accept the responsibility for changing them.','Denis Waitley',new Date(2020,2,1),0,0)
     
   ];
 
@@ -21,7 +23,7 @@ export class QuotesComponent implements OnInit {
   }  
 
   addedQuote(quote){
-    let arraysize = this.quotes.length;
+    let arraysize = this.quotes.length;                  
     quote.id = arraysize+1;
     quote.completeDate = new Date(quote.completeDate)
     this.quotes.push(quote)
