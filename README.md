@@ -29,7 +29,7 @@ To access this project on your local files, you can clone it using these steps
 1. Typescript
 
 ### Live Site
-<!-- View [live](https://fitstargilly2643.github.io/Fits-Pizza-Base/) -->
+View [live](https://fitstargilly2643.github.io/Quotes/)
 ### Contacts
 Reach us on awesomequotes@fits.com or call +254 725 060 098
 ### Licence
